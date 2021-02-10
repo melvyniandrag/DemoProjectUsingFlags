@@ -19,6 +19,6 @@ handle the flags you pass. You'll write your own program that parses the flags! 
 * When I look at the pull requests I want to see a directory called YourName containing the code and the screenshot.
 
 ## Note
-Note that I already created a sample directory called "JulianAureliano" to give you a sense of how to do the assignment.
+Note that I already created a sample directory called "MelvynDrag" to give you a sense of how to do the assignment.
 In that directory you will see I modded the code to handle the `-n` flag (But for your assignment I asked you to add the `-r` 
 flag). And you'll see a screenshot.
