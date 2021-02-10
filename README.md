@@ -10,7 +10,12 @@ handle the flags you pass. You'll write your own program that parses the flags! 
 * Clone your fork to your debian server
 * Add a directory called YourName
 * copy the get_opts.c program into the directory called YourName
-* Add a few lines of code so the program handles the -r flag
+* Add a few lines of code so the program handles the `-r` flag
 * compile and run the code
 * add, commit and push your changes up to github
 * make a pull request
+
+## Note
+Note that I already created a sample directory called "JulianAureliano" to give you a sense of how to do the assignment.
+In that directory you will see I modded the code to handle the `-n` flag (But for your assignment I asked you to add the `-r` 
+flag).
