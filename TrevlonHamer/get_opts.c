@@ -12,6 +12,7 @@ int main (int argc, char **argv)
 {
   int aflag = 0;
   int bflag = 0;
+  int rflag = 0;
   char *cvalue = NULL;
   int index;
   int c;
@@ -22,9 +23,13 @@ int main (int argc, char **argv)
   // c is followed by a colon
   // The colon means that the preceding option takes an argument
   // so we could also put c:ab or c:ba instead of abc:
-  while ((c = getopt (argc, argv, "abc:")) != -1)
+  while ((c = getopt (argc, argv, "rabc:")) != -1)
     switch (c)
       {
+      case 'r':
+	printf("You set the r flag!\n");
+	rflag = 1;
+	break;	
       case 'a':
         printf("You set the a flag!\n");
         aflag = 1;
