@@ -19,7 +19,7 @@ int main (int argc, char **argv)
 
   opterr = 0;
 
-  while ((c = getopt (argc, argv, "abc:")) != -1)
+  while ((c = getopt (argc, argv, "rabc:")) != -1)
     switch (c)
       {
       case 'a':
